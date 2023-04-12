@@ -56,15 +56,39 @@
 		7E59A70429E6D8DF00C5583E /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				7E59A70529E6D8DF00C5583E /* AppDelegate.swift */,
-				7E59A70729E6D8DF00C5583E /* SceneDelegate.swift */,
-				7E59A70929E6D8DF00C5583E /* ViewController.swift */,
-				7E59A70B29E6D8DF00C5583E /* Main.storyboard */,
+				7E59A71929E6DB0100C5583E /* AppDelegate */,
+				7E59A71A29E6DB5200C5583E /* Controller */,
+				7E59A71B29E6DBBC00C5583E /* View */,
 				7E59A70E29E6D8E100C5583E /* Assets.xcassets */,
-				7E59A71029E6D8E100C5583E /* LaunchScreen.storyboard */,
 				7E59A71329E6D8E100C5583E /* Info.plist */,
 			);
 			path = DayFinder;
+			sourceTree = "<group>";
+		};
+		7E59A71929E6DB0100C5583E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7E59A70729E6D8DF00C5583E /* SceneDelegate.swift */,
+				7E59A70529E6D8DF00C5583E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7E59A71A29E6DB5200C5583E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E59A70929E6D8DF00C5583E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E59A71B29E6DBBC00C5583E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E59A70B29E6D8DF00C5583E /* Main.storyboard */,
+				7E59A71029E6D8E100C5583E /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +314,7 @@
 				DEVELOPMENT_TEAM = RW4PA4UCU3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Day Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DayFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -318,6 +343,7 @@
 				DEVELOPMENT_TEAM = RW4PA4UCU3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Day Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DayFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
