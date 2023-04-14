@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DayFinder
 //
-//  Created by liene.krista.neimane on 12/04/2023.
+//  Created by Arkadijs Makarenko on 12/04/2023.
 //
 
 import UIKit
